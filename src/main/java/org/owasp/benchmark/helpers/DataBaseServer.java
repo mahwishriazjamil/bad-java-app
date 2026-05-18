@@ -27,6 +27,7 @@ import org.owasp.benchmark.service.pojo.Person;
 import org.owasp.benchmark.service.pojo.XMLMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -53,6 +54,7 @@ public class DataBaseServer {
         return new ResponseEntity<List<XMLMessage>>(resp, HttpStatus.OK);
     }
 
+    @PreAuthorize("isAuthenticated()")
     @RequestMapping(value = "/getall", method = RequestMethod.GET)
     public ResponseEntity<List<XMLMessage>> getAll(
             HttpServletRequest request, HttpServletResponse response)
