@@ -1,0 +1,6 @@
+projectKey=mahwishriazjamil_bad-java-app_8f8e1f94-d06c-45a9-b1ed-5a9088a7d8f6
+serverUrl=https://lta-mahwish-riazjamil.ngrok.io
+serverVersion=2026.3.0.123014
+dashboardUrl=https://lta-mahwish-riazjamil.ngrok.io/dashboard?id=mahwishriazjamil_bad-java-app_8f8e1f94-d06c-45a9-b1ed-5a9088a7d8f6
+ceTaskId=b7d4f892-be6f-42ae-90a9-ccea116eacfb
+ceTaskUrl=https://lta-mahwish-riazjamil.ngrok.io/api/ce/task?id=b7d4f892-be6f-42ae-90a9-ccea116eacfb
